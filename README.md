@@ -57,18 +57,25 @@ To get a local copy up and running, follow these simple example steps.
    cd bengali_character
    ```
 
-2. Download the dataset
+2. Create a directory called `input`
+   ```sh
+   mkdir input
+   cd input
+   ```
+
+3. Download the dataset into the folder
     - Option 1: Use Kaggle API
       - `pip install kaggle`
       - `kaggle competitions download -c bengaliai-cv19`
     - Option 2: Download the dataset from the [competition website](https://github.com/).
 
-3. Run the training script
+4. Run the training script
    ```sh
+   cd ..
    python train.py
    ```
 
-4. (Optional) Run the inference script
+5. (Optional) Run the inference script
    ```sh
    python inference.py
    ```
