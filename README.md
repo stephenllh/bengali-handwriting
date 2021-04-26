@@ -5,11 +5,11 @@
 
 <br/>
 
-<img src="/image/image.png" alt="Competition image"/>
+<img src="/image/image.png" alt="Competition image" width="50" height="2"/>
 
 <!-- ![Product Name Screen Shot](/image/image.png) -->
 
-This is my solution to the [Bengali.AI Handwritten Grapheme Classification competition](https://www.kaggle.com/c/bengaliai-cv19/overview). It uses a DenseNet-121 that receives a one-channel image. The MixUp augmentation is used to improve the performance.
+This is my solution to the [Bengali.AI Handwritten Grapheme Classification competition](https://www.kaggle.com/c/bengaliai-cv19/overview). I used a DenseNet-121 that receives a one-channel image and outputs 3 separate classifiers for the grapheme root, vowel diacritics, and consonant diacritics, respectively. The MixUp augmentation is used to improve the performance.
 
 Result: Macro-average recall score of 0.9319 in the [private leaderboard](https://www.kaggle.com/c/bengaliai-cv19/leaderboard). Ranked 182 out of 2059 teams (bronze medal region).
 <br/><br/>
