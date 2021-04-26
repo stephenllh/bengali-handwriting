@@ -4,8 +4,10 @@
 ## About The Project
 
 <br/>
+<p align="center">
+  <img src="/image/image.png" alt="Competition image" width="500" height="500"/>
+</p>
 
-<img src="/image/image.png" alt="Competition image" width="500" height="500"/>
 
 <!-- ![Product Name Screen Shot](/image/image.png) -->
 
