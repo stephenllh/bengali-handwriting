@@ -34,7 +34,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1095143%2Fa9a48686e3f385d9456b59bf2035594c%2Fdesc.png?generation=1576531903599785&alt=media)
+[![Product Name Screen Shot][product-screenshot]](./image.png)
+
+This is my solution to the competition. It uses a DenseNet-121 that receives a one-channel image. The MixUp augmentation is used to improve the performance.
+
+Private leaderboard for macro-average recall score - 0.9319. Ranked 182 out 2059 teams. Bronze medal.
 
 
 <br/><br/>
@@ -42,7 +46,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 <br/><br/>
 
 ### Prerequisites
@@ -68,7 +72,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    pip install requirements.txt
    ```
-
+<br></br>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
