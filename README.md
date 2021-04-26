@@ -5,7 +5,7 @@
 
 <br/>
 
-<img src="/image/image.png" alt="Competition image" width="50" height="50"/>
+<img src="/image/image.png" alt="Competition image" width="500" height="500"/>
 
 <!-- ![Product Name Screen Shot](/image/image.png) -->
 
