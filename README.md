@@ -67,6 +67,12 @@ To get a local copy up and running, follow these simple example steps.
    ```sh
    python train.py
    ```
+
+4. (Optional) Run the inference script
+   ```sh
+   python inference.py
+   ```
+
 <br/>
 
 
