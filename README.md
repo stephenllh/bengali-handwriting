@@ -1,46 +1,17 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
-
+# <span>Bengali.AI</span> Handwritten Grapheme Classification Bronze Medal Solution
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./image.png)
+<br/>
 
-This is my solution to the competition. It uses a DenseNet-121 that receives a one-channel image. The MixUp augmentation is used to improve the performance.
+<img src="/image/image.png" alt="Competition image"/>
 
-Private leaderboard for macro-average recall score - 0.9319. Ranked 182 out 2059 teams. Bronze medal.
+<!-- ![Product Name Screen Shot](/image/image.png) -->
 
+This is my solution to the [Bengali.AI Handwritten Grapheme Classification competition](https://www.kaggle.com/c/bengaliai-cv19/overview). It uses a DenseNet-121 that receives a one-channel image. The MixUp augmentation is used to improve the performance.
 
+Result: Macro-average recall score of 0.9319 in the [private leaderboard](https://www.kaggle.com/c/bengaliai-cv19/leaderboard). Ranked 182 out of 2059 teams (bronze medal region).
 <br/><br/>
 
 <!-- GETTING STARTED -->
@@ -51,7 +22,9 @@ To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
 
-* PyTorch
+* PyTorch (version 1.3.0)
+
+  Install using Anaconda:
   ```sh
   conda install pytorch=1.3.0 -c pytorch
   ```
@@ -72,7 +45,7 @@ To get a local copy up and running, follow these simple example steps.
    ```sh
    pip install requirements.txt
    ```
-<br></br>
+<br/>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -92,7 +65,7 @@ To get a local copy up and running, follow these simple example steps.
    ```sh
    python train.py
    ```
-<br></br>
+<br/>
 
 
 <!-- LICENSE -->
